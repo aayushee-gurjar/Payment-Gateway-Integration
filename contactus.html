@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="Nav-Links">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>                   
+                    <li><a href="contactus.html">Contact Us</a></li>
+                   
+                    
+
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()" ></i>
+        </nav>
+               <h1>Contact Us</h1>
+   </section>
+
+   <!----------Contact us content--------------->
+
+    
+      <section class="contact-us">
+          <div class="row">
+               <div class="contact-col">
+                   <div>
+                    <i class="fa fa-home" ></i>
+                     <span>
+                        <h5>21 Heng Mui Keng Terrace, </h5>
+                        <p>Icube Building, Singapore 119613</p>
+                     </span>
+                   </div>
+                   <div>
+                     <i class="fa fa-phone" ></i>
+                     <span>
+                        <h5>+65-8402-8590, </h5>
+                        
+                     </span>
+                   </div>
+                   <div>
+                     <i class="fa fa-envelope-o" ></i>
+                     <span>
+                        <h5>info@thesparksfoundation.sg</h5>
+                        <p>Email us your query</p>
+                     </span>
+                   </div>
+               </div>
+               <div class="contact-col">
+
+                  <form action="">
+                       <input type="text" placeholder="Enter Your Name" required>
+                       <input type="email" placeholder="Enter Email Address" required>
+                       <input type="text" placeholder="Enter Your Subject " required>
+                       <textarea rows="8" placeholder="Message" required></textarea>
+                       <button type="submit" class="btn btn1">Send Message</button>
+
+                  </form>
+               </div>
+          </div>
+      </section>                   
+
+ <!-----------------Footer-------------------->
+<section class="footer">
+    <!-- <h4>About Us</h4> -->
+    <p>Copyright 2021-2022.All Rights Reserved.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Aayushee Gurjar</p>
+
+
+ </section>
+
+   <!----Javascript for toggle menu---->
+ 
+   <script>
+    var NavLinks= document.getElementById("Nav-Links");
+    function showmenu(){
+        NavLinks.style.left="0";
+    }
+    function hidemenu(){
+        NavLinks.style.left ="-200px";
+    }
+ </script>   
+ 
+     </body>
+</html>
+
+        

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            
+            <div class="nav-links" id="Nav-Links">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <!-- <li><a href="">Donate</a></li> -->
+                    <li><a href="contactus.html">Contact Us</a></li>
+                   
+                    
+
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()" ></i>
+        </nav>
+        <div class="textbox">
+            <h1>We wishes Healthy and Bright Future of students</h1>
+            <p>This  website is for the donation of study of <br> students who can't afford Fees.</p>
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JIUWglRy36wGQq" async> </script> </form>
+
+            
+        </div>
+    </section>
+    <!-- Footer -->
+<!-----------------Footer-------------------->
+<section class="footer">
+    <!-- <h4>About Us</h4> -->
+    <p>Copyright 2021-2022.All Rights Reserved.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Aayushee Gurjar</p>
+
+
+ </section>
+      
+     
+    
+       
+    <script>
+       var NavLinks= document.getElementById("Nav-Links");
+       function showmenu(){
+           NavLinks.style.left="0";
+       }
+       function hidemenu(){
+           NavLinks.style.left ="-200px";
+       }
+    </script>
+</body>
+</html>
